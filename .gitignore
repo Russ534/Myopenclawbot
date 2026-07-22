@@ -1,0 +1,27 @@
+# 凭据/密钥 —— 绝不能上传
+.env
+*.key
+*.pem
+*.token
+secrets/
+
+# 缓存 / 临时文件
+__pycache__/
+*.pyc
+.cache/
+logs/
+*.log
+audio_cache/
+voice-memos/
+
+# 运行时数据
+cron/output/
+cache/
+*.db
+*.db-shm
+*.db-wal
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.lock

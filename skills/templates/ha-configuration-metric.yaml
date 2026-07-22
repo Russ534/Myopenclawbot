@@ -1,0 +1,11 @@
+# Snippet for Home Assistant configuration.yaml
+# Purpose: switch unit system from imperial to metric (China/household default)
+# After saving, restart Home Assistant Core:
+#   Developer tools -> YAML -> Restart Home Assistant
+
+homeassistant:
+  unit_system: metric
+
+# If the file already has a `homeassistant:` block, add only the line:
+#   unit_system: metric
+# inside that block, preserving existing keys (latitude, longitude, elevation, etc.).
